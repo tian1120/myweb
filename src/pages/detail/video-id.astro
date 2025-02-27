@@ -1,0 +1,77 @@
+---
+import DetailPostLayout from 'src/layouts/DetailPostLayout.astro';
+
+// 获取 URL 中的 id 参数
+const { pathname } = new URL(Astro.url);
+const pathSegments = pathname.split('/');
+const videoId = pathSegments[pathSegments.length - 1] || '1'; // 获取最后一段路径作为 id
+
+console.log("Video ID:", videoId);
+
+// 根据视频ID加载视频数据
+const videoData = {
+  "1": {
+    "title": "智能体温计主图视频",
+    "description": "产品介绍",
+    "videoSrc": "/assets/videos/体温计主图视频.mp4",
+    "cover": "/assets/cover/视频简历封面.png"
+  },
+  "2": {
+    "title": "智能排卵试纸主图视频",
+    "description": "产品介绍",
+    "videoSrc": "/assets/videos/排卵试纸主图视频.mp4",
+    "cover": "/assets/cover/视频简历封面.png"
+  },
+  "3": {
+    "title": "非蓝牙体温计",
+    "description": "产品介绍",
+    "videoSrc": "/assets/videos/非蓝牙体温计.mp4",
+    "cover": "/assets/cover/视频简历封面.png"
+  },
+  "4": {
+    "title": "半定量试纸使用视频",
+    "description": "产品介绍",
+    "videoSrc": "/assets/videos/半定量试纸使用视频.mp4",
+    "cover": "/assets/cover/视频简历封面.png"
+  },
+  "5": {
+    "title": "胎心仪-宣传视频",
+    "description": "产品介绍",
+    "videoSrc": "/assets/videos/胎心仪-宣传视频.mp4",
+    "cover": "/assets/cover/视频简历封面.png"
+  },
+  "6": {
+    "title": "2021文津读书沙龙开场",
+    "description": "产品介绍",
+    "videoSrc": "/assets/videos/2021文津读书沙龙.mp4",
+    "cover": "/assets/cover/视频简历封面.png"
+  },
+  "7": {
+    "title": "视频简历",
+    "description": "简单的自我介绍以及部分作品",
+    "videoSrc": "/assets/videos/视频简历-作品集.mp4",
+    "cover": "/assets/cover/视频简历封面.png"
+  }
+};
+
+const video = videoData[videoId];
+console.log("Video Data:", video);
+if (!video) {
+  throw new Error(`Video with ID ${videoId} not found`);
+}
+---
+<DetailPostLayout title={video.title} description={video.description} keywords={video.title}>
+  <main>
+    <section class="project-intro">
+      <h1>{video.title}</h1>
+      <p>{video.description}</p>
+    </section>
+    <section class="project-content">
+      <h2>视频展示</h2>
+      <video controls>
+        <source src={video.videoSrc} type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+</DetailPostLayout>

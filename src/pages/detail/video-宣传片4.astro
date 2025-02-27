@@ -1,0 +1,55 @@
+---
+import DetailPostLayout from 'src/layouts/DetailPostLayout.astro';
+
+const title = '唐山市德龙钢铁宣传片';
+const description = '企业宣传';
+const keywords = '唐山市德龙钢铁宣传片, 作品集, 视频展示';
+---
+<DetailPostLayout title={title} description={description} keywords={keywords}>
+  <main>
+    <section class="project-intro">
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </section>
+    <section class="project-content">
+      <h2>视频展示</h2>
+      <iframe 
+        src="https://player.xinpianchang.com/?aid=13289427&amp;mid=MzkmwJ0JNzoQxjXp" 
+        allowfullscreen 
+        allow="fullscreen" 
+        frameborder="0"
+        class="video-iframe"
+      ></iframe>
+    </section>
+  </main>
+</DetailPostLayout>
+
+<style>
+  .project-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: transparent;
+    border-radius: 17px;
+    box-shadow: none;
+    color: white;
+  }
+
+  .video-iframe {
+    width: 300%; /* 根据需要调整宽度 */
+    height: 500px; /* 根据需要调整高度 */
+    aspect-ratio: 16 / 9; /* 根据视频的实际宽高比调整 */
+    object-fit: cover; /* 或者使用 contain */
+    border: none; /* 去掉边框 */
+    border-radius: 12px; /* 保留圆角 */
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+  }
+</style>

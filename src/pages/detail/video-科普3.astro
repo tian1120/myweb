@@ -1,0 +1,52 @@
+---
+import DetailPostLayout from 'src/layouts/DetailPostLayout.astro';
+
+const title = '学习戏剧到底是为了什么？';
+const description = '戏剧教育科普';
+const keywords = '学习戏剧到底是为了什么？, 作品集, 视频展示';
+---
+<DetailPostLayout title={title} description={description} keywords={keywords}>
+  <main>
+    <section class="project-intro">
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </section>
+    <section class="project-content">
+      <h2>视频展示</h2>
+      <iframe 
+        src="//player.bilibili.com/player.html?isOutside=true&aid=112760323051512&bvid=BV1MRaLePEmT&cid=500001610558175&p=1" 
+        class="video-iframe"
+        scrolling="no"  frameborder="no"  allowfullscreen="true"
+      ></iframe>
+    </section>
+  </main>
+</DetailPostLayout>
+
+<style>
+  .project-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: transparent;
+    border-radius: 17px;
+    box-shadow: none;
+    color: white;
+  }
+
+  .video-iframe {
+    width: 800px; /* 设置宽度 */
+    height: 450px; /* 根据需要调整高度 */
+    aspect-ratio: 16 / 9; /* 保持宽高比 */
+    border: none; /* 去掉边框 */
+    border-radius: 12px; /* 保留圆角 */
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+  }
+</style>

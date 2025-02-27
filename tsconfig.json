@@ -1,0 +1,23 @@
+{
+	"extends": "astro/tsconfigs/strict",
+	"compilerOptions": {
+
+		"noEmitOnError": false, // 允许编译过程中有错误发生而不停止编译过程
+		"strict": false, // 关闭严格模式以允许更多类型的宽松检查（可选）
+
+	  
+	  "baseUrl": ".",
+	  
+	  "allowSyntheticDefaultImports": true, // 允许默认导入
+	  "allowImportingTsExtensions": true, // 允许导入 `.ts` 文件
+	  "paths": {
+		"@/components/*": ["src/components/*.astro"],
+		"@/layouts/*": ["src/layouts/*.astro"],
+		"@/data/*": ["src/data/*"],
+		"@/styles": ["src/styles/"],
+		"@/assets/*": ["src/assets/*"],
+	  }
+	},
+	"include": ["src/**/*.astro", "src/**/*.ts", "src/**/*.tsx", "types.d.ts"],
+	"exclude": ["node_modules", "**/node_modules/*", ".vscode", "dist"]
+  }

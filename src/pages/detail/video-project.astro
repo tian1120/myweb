@@ -1,0 +1,19 @@
+---
+import Layout from 'src/layouts/DetailPostLayout.astro';
+
+---
+<Layout>
+  <main>
+    <section class="project-intro">
+      <h1>我的视频作品</h1>
+      <p>这是一个视频作品的描述。</p>
+    </section>
+    <section class="project-content">
+      <h2>视频展示</h2>
+      <video controls>
+        <source src="/assets/videos/视频简历-作品集.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+</Layout>

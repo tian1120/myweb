@@ -1,0 +1,278 @@
+
+[
+	{
+		"id": "1",
+		"cover": "/assets/cover/日本舞蹈研学预告.png",
+		"title": "日本舞蹈研学预告",
+		"desc": "mv",
+		"detail": "/detail/video-其他3",
+		"category": "other",
+		"tag": "其他",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/游击队之歌-国家图书馆.png",
+		"title": "游击队之歌",
+		"desc": "mv",
+		"detail": "/detail/video-其他2",
+		"category": "other",
+		"tag": "其他",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/英雄赞歌-国家图书馆.png",
+		"title": "英雄赞歌",
+		"desc": "mv",
+		"detail": "/detail/video-其他1",
+		"category": "other",
+		"tag": "其他",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/助力华龙出海 共建海丝之路.png",
+		"title": "助力华龙出海 共建海丝之路",
+		"desc": "企业宣传",
+		"detail": "/detail/video-宣传片5",
+		"category": "advertising video",
+		"tag": "宣传片",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/唐山市德龙钢铁宣传片.png",
+		"title": "唐山市德龙钢铁宣传片",
+		"desc": "企业宣传",
+		"detail": "/detail/video-宣传片4",
+		"category": "advertising video",
+		"tag": "宣传片",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/唐山市人民医院汇报片.png",
+		"title": "唐山市人民医院汇报片",
+		"desc": "专题汇报",
+		"detail": "/detail/video-宣传片3",
+		"category": "advertising video",
+		"tag": "宣传片",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/河北故城经济开发区宣传片.png",
+		"title": "河北故城经济开发区宣传片",
+		"desc": "城市宣传",
+		"detail": "/detail/video-宣传片2",
+		"category": "advertising video",
+		"tag": "宣传片",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/中国拍卖协会宣传片.png",
+		"title": "中国拍卖协会宣传片",
+		"desc": "企业宣传",
+		"detail": "/detail/video-宣传片1",
+		"category": "advertising video",
+		"tag": "宣传片",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/关于美育浸润.jpg",
+		"title": "大思政背景下的影视教育",
+		"desc": "关于美育浸润",
+		"detail": "/detail/video-科普5",
+		"category": "popular science",
+		"tag": "科普",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/中国孩子拥有什么，能与同龄人拉开差距？.png",
+		"title": "中国孩子拥有什么，能与同龄人拉开差距？",
+		"desc": "戏剧知识科普",
+		"detail": "/detail/video-科普4",
+		"category": "popular science",
+		"tag": "科普",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/学习戏剧到底是为了什么？.jpg",
+		"title": "学习戏剧到底是为了什么？",
+		"desc": "戏剧知识科普",
+		"detail": "/detail/video-科普3",
+		"category": "popular science",
+		"tag": "科普",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/戏剧教育的前世今生.jpg",
+		"title": "戏剧教育的前世今生",
+		"desc": "戏剧知识科普",
+		"detail": "/detail/video-科普2",
+		"category": "popular science",
+		"tag": "科普",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/大思政背景下的影视教育.png",
+		"title": "大思政背景下的影视教育",
+		"desc": "中小学影视教育科",
+		"detail": "/detail/video-科普1",
+		"category": "popular science",
+		"tag": "科普",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/四代体温计使用教程.png",
+		"title": "四代体温计使用教程",
+		"desc": "产品",
+		"detail": "/detail/video-产品1",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/胎心监护仪.png",
+		"title": "胎心监护仪",
+		"desc": "产品",
+		"detail": "/detail/video-产品2",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},{
+		"id": "1",
+		"cover": "/assets/cover/高灵敏验孕棒.png",
+		"title": "高灵敏验孕棒使用教程",
+		"desc": "产品",
+		"detail": "/detail/video-产品3",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},{
+		"id": "1",
+		"cover": "/assets/cover/sp10使用教程.png",
+		"title": "sp10使用教程",
+		"desc": "产品",
+		"detail": "/detail/video-产品4",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},{
+		"id": "1",
+		"cover": "/assets/cover/孕橙智能胎心仪.png",
+		"title": "孕橙智能胎心仪使用教程",
+		"desc": "产品",
+		"detail": "/detail/video-产品5",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},{
+		"id": "1",
+		"cover": "/assets/cover/胎膜早破检测卡.png",
+		"title": "胎膜早破检测卡宣传视频",
+		"desc": "产品",
+		"detail": "/detail/video-产品6",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},{
+		"id": "1",
+		"cover": "/assets/cover/半定量HCG检测卡.png",
+		"title": "半定量HCG检测卡宣传视频",
+		"desc": "产品",
+		"detail": "/detail/video-产品7",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},{
+		"id": "1",
+		"cover": "/assets/cover/测温学习.png",
+		"title": "测温学习视频",
+		"desc": "产品",
+		"detail": "/detail/video-产品8",
+		"category": "product",
+		"tag": "产品",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "1",
+		"cover": "/assets/cover/智能体温计封面.png",
+		"title": "智能体温计主图视频",
+		"desc": "产品动画",
+		"detail": "/detail/video-1",
+		"category": "animation",
+		"tag": "动画",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "2",
+		"cover": "/assets/cover/排卵试纸封面.png",
+		"title": "智能排卵试纸主图视频",
+		"desc": "产品动画",
+		"detail": "/detail/video-2",
+		"category": "animation",
+		"tag": "动画",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "3",
+		"cover": "/assets/cover/非蓝牙体温计封面.png",
+		"title": "非蓝牙体温计",
+		"desc": "产品动画",
+		"detail": "/detail/video-3",
+		"category": "animation",
+		"tag": "动画",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "4",
+		"cover": "/assets/cover/排卵试纸使用封面.png",
+		"title": "半定量试纸使用视频",
+		"desc": "产品动画",
+		"detail": "/detail/video-4",
+		"category": "animation",
+		"tag": "动画",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "5",
+		"cover": "/assets/cover/智能胎心仪封面.png",
+		"title": "胎心仪-宣传视频",
+		"desc": "产品动画",
+		"detail": "/detail/video-5",
+		"category": "animation",
+		"tag": "动画",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "6",
+		"cover": "/assets/cover/读书奖封面.png",
+		"title": "2021文津读书沙龙开场",
+		"desc": "主视觉",
+		"detail": "/detail/video-6",
+		"category": "animation",
+		"tag": "动画",
+		"date": "2025-02-10"
+	},
+	{
+		"id": "7",
+		"cover": "/assets/cover/视频简历封面.png",
+		"title": "视频简历",
+		"desc": "简单的自我介绍以及部分作品",
+		"detail": "/detail/video-resume",
+		"category": "animation",
+		"tag": "动画",
+		"date": "2025-02-10"
+	}
+
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "content": "全部",
+        "dataGroup": "全部"
+    },
+    {
+        "content": "动画",
+        "dataGroup": "动画"
+    },
+    {
+        "content": "产品",
+        "dataGroup": "产品"
+    },
+    {
+        "content": "科普",
+        "dataGroup": "科普"
+    },
+    {
+        "content": "其他",
+        "dataGroup": "其他"
+    }
+]

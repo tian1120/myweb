@@ -1,0 +1,13 @@
+---
+
+// src/utils/filterProjects.js
+export function filterProjects(projects: any, selectedCategory: string) {
+  // console.log('123', selected Category) 
+  if (selectedCategory === "all") {
+    return projects; // 如果选择“全部”，返回所有项目
+  } else {
+    return projects.filter((project: any) => project.category === selectedCategory);
+  }
+}
+
+---

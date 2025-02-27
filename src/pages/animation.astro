@@ -1,0 +1,21 @@
+---
+import { getProjects } from 'src/data/projects.js';
+import Layout from 'src/layouts/DetailPostLayout.astro';
+
+const animationProjects = getProjects().filter(project => project.category === '动画');
+---
+<Layout>
+  <main>
+    <section class="projects">
+      <h1>动画项目</h1>
+      {animationProjects.map(project => (
+        <div class="project">
+          <img src={project.cover} alt={project.title} />
+          <h2>{project.title}</h2>
+          <p>{project.desc}</p>
+          <a href={project.detail}>查看详情</a>
+        </div>
+      ))}
+    </section>
+  </main>
+</Layout>
